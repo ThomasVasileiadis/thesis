@@ -45,43 +45,43 @@ def popCreate(p):
  si = round((th*n),1)
  ii = n-si
  print("-----------------------------------")
- print("Statistika stoixeia: \n")
- print("Pathogono R0 se plhrws eyaisthito plythismo: {0}".format(str(r0)))
- print("Pathogonos periodos molysmatikothtas: {0} hmeres".format(str(ip)))
- print("Orio eyaisthisias: {0} atoma".format(str(si)))
- print("Anosologika atoma poy xreiasthkan gia thn prolhpsh ths epidhmias: {0} atoma".format(str(ii)))
- print("Orio katwflioy: {0}".format(str(th)))
+ print("Στατιστικά στοιχεία: \n")
+ print("Παθογόνο R0 σε πλήρως ευαίσθητο πληθυσμό: {0}".format(str(r0)))
+ print("Παθογόνος περίοδος μολυσματικότητας: {0} ημέρες".format(str(ip)))
+ print("Όριο ευαισθησίας: {0} άτομα".format(str(si)))
+ print("Ανοσολογικά άτομα που χρειάστηκαν για την πρόληψη της επιδημίας: {0} άτομα".format(str(ii)))
+ print("Όριο κατωφλιού: {0}".format(str(th)))
  print("-----------------------------------\n")
  
 
 
 #arxiko menu epiloghs
-print("Kalws hlthate!\n")
-print("1. Prosarmosmenos plythismos me proepilegmeno pathogono paragonta.")
-print("2. Prosarmosmenos plythismos me Prosarmosmeno pathogono paragonta.")
-print("3. Eksodos.\n")
-swch = int(input("Parakalw epilekste: "))
+print("Καλώς ήλθατε!\n")
+print("1. Προσαρμοσμένος πλυθησμός με προεπιλεγμένο παθογόνο παράγοντα.")
+print("2. Προσαρμοσμένος πλυθησμός με προσαρμοσμένο παθογόνο παράγοντα.")
+print("3. Έξοδος.\n")
+swch = int(input("Παρακαλώ επιλέξτε: "))
 #an dialexthke to 1 tote
 if swch == 1:
  print("-----------------------------------")
- print("        Proepilegmena pathogona \n")
- print("Parakalw epilekste ena pathogono ths parakatw listas:\n")
- print("1. Ilaras.")
- print("- Ena eksairetika metadidomeno pathogono.")
- ps = int(input("Parakalw epilekste: "))
+ print("Προεπιλεγμένα παθογόνα \n")
+ print("Παρακαλώ επιλέξτε ένα παθογόνο της παρακάτω λίστας:\n")
+ print("1.Ιλαρας.")
+ print("- Ένα εξεραιτικά μεταδιδόμενο παθογόνο.")
+ ps = int(input("Παρακαλώ επιλέξτε: "))
  if ps == 1:
   pc = p1
   popCreate(pc)
  #alliws, an dialexthke to 2 tote
 elif swch == 2:
  print("-----------------------------------")
- print("     Prosarmosmenh dhmioyrgia pathogonoy \n")
- name = raw_input("Eisagete to onoma toy pathogonoy: ")
- pType = raw_input("Eisagete ton typo toy pathogonoy: ")
- taxID = raw_input("Eisagete to anagnwristiko taksinomikhs taytothtas NCBI(an yparxei): ")
- disease = raw_input("Eisagete to onoma ths nosoy: ")
- R0 = raw_input("Eisagete to R0 toy pathogonoy paragonta: ")
- per = raw_input("Eisagete thn periodo molysmatikothtas: ")
+ print("Προσαρμοσμένη λειτουργεία παθογόνου \n")
+ name = raw_input("Εισάγετε το όνομα του παθογόνου: ")
+ pType = raw_input("Εισάγετε τον τύπο του παθογόνου: ")
+ taxID = raw_input("Εισάγετε το αναγνωριστικό ταξινομικής ταυτότητας NCBI(αν υπάρχει): ")
+ disease = raw_input("Εισάγετε το όνομα της νόσου: ")
+ R0 = raw_input("Εισάγετε το R0 του παθογόνου παράγοντα: ")
+ per = raw_input("Εισάγετε την περίοδο μολυσματικότητας: ")
  pc = pathDef(name,pType,taxID,disease,R0,per)
  popCreate(pc)
  #alliws an dialexthke to 3 tote
@@ -90,5 +90,5 @@ elif swch == 3:
  #diaforetika kapoio lathos egine
 else:
  print("-----------------------------------")
- print("Egine kapoio lathos, parakalw dokimaste ksana.")
+ print("Έγινε κάποιο λάθος, παρακαλώ δοκιμάστε ξανά.")
  print("******************************************************************************")
