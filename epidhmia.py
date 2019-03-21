@@ -16,20 +16,17 @@ def popCreate(p):
     n = int(input("Εισάγετε τον συνολικό αριθμό ατόμων στον πλυθησμό: "))  # n einai o plythismos
     s = int(input("Εισάγετε τον αριθμό των ευπαθών ατόμων: "))  # s einai o susceptible(eypathis) plythismos
     i = int(input("Εισάγετε τον αριθμό των αρχικά μολυσμένων ατόμων: "))  # i einai o infectious(molysmenos) plythismos
-    r = int(input(
-        "Εισάγετε τον αριθμό των ανοσοποιημένων ατόμων: "))  # r einai o recovered/immune(anosopoihmenos) plythismos
+    r = int(input("Εισάγετε τον αριθμό των ανοσοποιημένων ατόμων: "))  # r einai o recovered/immune(anosopoihmenos) plythismos
     print("\nΟ δοκιμαστικός πλυθησμός αποτελείται από {0} ευπαθείς, {1} μολυσμένους,".format(str(s), str(i)))
     print("και {0} ανοσοποιημένους. \n".format(str(r)))
-    t1 = int(
-        input("Εισάγετε το μήκος προσομείωσης σε μέρες: "))  # t einai to time(meres) poy tha diarkesei h prosomoiwsh
+    t1 = int(input("Εισάγετε το μήκος προσομείωσης σε μέρες: "))  # t einai to time(meres) poy tha diarkesei h prosomoiwsh
     if t1 != 0:  # default mhkos se meres einai to 10 kai epilegetai me 0
         t = t1
         b = p.getB()
         y = 1 / p.getPeriod()
     print("-----------------------------------")
     # ektypwse ta apotelesmata
-    print("Ημέρα 0: {0} ευπαθείς, {1} μολυσμένοι, {2} ανοσοποιημένοι, {3} συνολικά.".format(str(s), str(i), str(r),
-                                                                                            str(n)))
+    print("Ημέρα 0: {0} ευπαθείς, {1} μολυσμένοι, {2} ανοσοποιημένοι, {3} συνολικά.".format(str(s), str(i), str(r),str(n)))
     # efarmogh toy SIR monteloy
     for day in range(1, t + 1):
         s1 = s
@@ -42,9 +39,7 @@ def popCreate(p):
             i = round((i1 + (((b * s1 * i1) / n) - (y * i1))), 1)
             r = n - s - i
             # ektypwse ta apotelesmata
-        print("Ημέρα {0}: {1} ευπαθείς, {2} μολυσμένοι, {3} ανοσοποιημένοι, {4} συνολικά.".format(str(day), str(s),
-                                                                                                  str(i), str(r),
-                                                                                                  str(n)))
+        print("Ημέρα {0}: {1} ευπαθείς, {2} μολυσμένοι, {3} ανοσοποιημένοι, {4} συνολικά.".format(str(day), str(s),str(i), str(r),str(n)))
     r0 = float(p.getR0())
     ip = p.getPeriod()
     th = round((1 / r0), 3)
