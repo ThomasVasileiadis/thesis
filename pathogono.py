@@ -13,11 +13,11 @@ class pathDef(object):
   self.ip = round(a,2)
  
  def printPath(self):
-  print("Onoma: " + self.path_name)
-  print("Typos: " + self.path_type)
-  print("Anagnwristiko NCBI: " + self.taxid)
-  print("Aitiwdhs paragontas ths " + '"' + self.syndrome_name + '"')
-  print("Mesh molysmatikh periodos: " + str(self.ip) + " hmeres")
+     print("Όνομα: " + self.path_name)
+     print("Τύπος: " + self.path_type)
+     print("Αναγνωριστικό NCBI: " + self.taxid)
+     print("Αιτιώδης παράγοντας της " + '"' + self.syndrome_name + '"')
+     print("Μέση μολυσματική περίοδος: " + str(self.ip) + " ημέρες")
  
  def getR0(self):
   return self.R0
