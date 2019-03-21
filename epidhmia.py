@@ -1,9 +1,9 @@
 #!/usr/bin/env python
  
 from pathogono import pathDef
-from decimal import *
- #Definition toy pathogonoy me kapoia vasika stoixeia
-p1 = pathDef("Ios toy Ilara", "Ios", "11234", "Ilaras", 18, 8)
+
+# Definition toy pathogonoy me kapoia vasika stoixeia
+p1 = pathDef("Ιός του Ιλαρά", "Ιός", "11234", "Ιλαράς", 18, 8)
  
 def popCreate(p):
  print("-----------------------------------")
