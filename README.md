@@ -38,3 +38,9 @@ and Simulation
 [HIV transmission and the cost-effectiveness of methadone maintenance](https://www.academia.edu/808246/HIV_transmission_and_the_cost-effectiveness_of_methadone_maintenance?source=swp_share)
 
 [Modeling the AIDS epidemic: planning, policy and prediction.](https://www.academia.edu/808260/Modeling_the_AIDS_epidemic_planning_policy_and_prediction?source=swp_share)
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+| Συγγραφέας  | Επιβλέπων  | Επόπτης  | Θέμα Πτυχιακής  |
+|---|---|---|---|
+| Βασιλειάδης Θωμάς  | Βλάμος Παναγιώτης  | Κουροθανάσης Παναγιώτης  | Προσομείωση και Μοντελοποίηση  | 
