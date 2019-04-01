@@ -18,12 +18,14 @@ Python
 Χρήσιμα links
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-https://www.ijraset.com/fileserve.php?FID=9443
+[Matlab – A Successful Tool for Epidemic Modelling
+and Simulation
+](https://www.ijraset.com/fileserve.php?FID=9443)
 
-https://www.mathworks.com/company/user_stories/rti-international-and-university-of-pennsylvania-model-the-spread-of-epidemics-using-matlab-and-parallel-computing.html
+[RTI International and University of Pennsylvania Model the Spread of Epidemics Using MATLAB and Parallel Computing](https://www.mathworks.com/company/user_stories/rti-international-and-university-of-pennsylvania-model-the-spread-of-epidemics-using-matlab-and-parallel-computing.html)
 
-https://www.academia.edu/808249/Extending_and_applying_the_hypercube_queueing_model_to_deploy_ambulances_in_Boston?source=swp_share
+[Extending and applying the hypercube queueing model to deploy ambulances in Boston](https://www.academia.edu/808249/Extending_and_applying_the_hypercube_queueing_model_to_deploy_ambulances_in_Boston?source=swp_share)
 
-https://www.academia.edu/808246/HIV_transmission_and_the_cost-effectiveness_of_methadone_maintenance?source=swp_share
+[HIV transmission and the cost-effectiveness of methadone maintenance](https://www.academia.edu/808246/HIV_transmission_and_the_cost-effectiveness_of_methadone_maintenance?source=swp_share)
 
-https://www.academia.edu/808260/Modeling_the_AIDS_epidemic_planning_policy_and_prediction?source=swp_share
+[Modeling the AIDS epidemic: planning, policy and prediction.](https://www.academia.edu/808260/Modeling_the_AIDS_epidemic_planning_policy_and_prediction?source=swp_share)
