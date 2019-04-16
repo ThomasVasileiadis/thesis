@@ -1,8 +1,6 @@
-language: python
-  - 2.7
+language: bash
 
-before-script:
-  - composer install --no-interaction
+sudo: required
   
-script: epidhmia.python
+script: python epidhmia.py
   
