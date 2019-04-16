@@ -1,1 +1,6 @@
-language: php
+language: python
+
+
+before-script:
+  - composer install --no-interaction
+  
