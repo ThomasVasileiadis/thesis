@@ -1,6 +1,8 @@
 language: bash
 
+language: python
+
 sudo: required
   
-script: python epidhmia.py
+script: sudo python epidhmia.py
   
