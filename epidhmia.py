@@ -1,10 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
+from decimal import *
 from pathogono import pathDef
 
 # Definition toy pathogonoy me kapoia vasika stoixeia
 p1 = pathDef("Ιός του Ιλαρά", "Ιός", "11234", "Ιλαράς", 18, 8)
+p2 = pathDef("Πρωτόζωο", "Ιός", "5855", "Ελονοσία", 5, 15)
+p3 = pathDef("Βάκιλος του Γερσίν", "Βακτήριο", "632", "Πανούκλα", 16, 6)
+p4 = pathDef("Πολιοϊός", "Ιός", "12079", "Πολιομυελίτιδα", 10, 12)
 
 
 def popCreate(p):
@@ -67,13 +71,25 @@ if swch == 1:
     print("-----------------------------------")
     print("Προεπιλεγμένα παθογόνα \n")
     print("Παρακαλώ επιλέξτε ένα παθογόνο της παρακάτω λίστας:\n")
-    print("1.Ιλαρά.")
-    print("- Ένα εξεραιτικά μεταδιδόμενο παθογόνο.")
+    print("1.Ιλαρά")
+    print("2.Πρωτόζωο")
+    print("3.Βάκιλος του Γερσίν")
+    print("4.Πολιοϊός")
     ps = int(input("Παρακαλώ επιλέξτε: "))
     if ps == 1:
         pc = p1
         popCreate(pc)
     # alliws, an dialexthke to 2 tote
+    elif ps == 2:
+        pc = p2
+        popCreate(pc)
+    elif ps == 3:
+        pc = p3
+        popCreate(pc)
+    elif ps == 4:
+        pc = p4
+        popCreate(pc)
+
 elif swch == 2:
     print("-----------------------------------")
     print("Προσαρμοσμένη λειτουργεία παθογόνου \n")
